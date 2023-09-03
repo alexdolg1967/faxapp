@@ -13,43 +13,47 @@
     </head>
     <body>
         <!------------------------------------------------ HEADER --------------------------------------------------->
-        <div class="container">
-            <div class="header-wrap">
-                <div class="header-logo-wrap">
-                    <a href="#">
-                        <img
-                            src="./img/logo.svg"
-                            alt="logo"
-                            class="header-img-logo"
-                            width="235"
-                        />
-                    </a>
-                </div>
-
-                <div class="header-nav-wrap">
-                    <div class="header-nav">
-                        <div class="burger-icon">
-                            <div class="bar"></div>
-                            <div class="bar"></div>
-                            <div class="bar"></div>
+        <header class="header">
+            <div class="container">
+                <div class="header-wrap">
+                    <div class="header-logo-wrap">
+                        <a href="#">
+                            <img
+                                src="./img/logo.svg"
+                                alt="logo"
+                                class="header-img-logo"
+                                width="220"
+                            />
+                        </a>
+                    </div>
+    
+                    <div class="header-nav-wrap">
+                        <div class="header-nav">
+                            <div class="burger-icon">
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                                <div class="bar"></div>
+                            </div>
+                            <ul class="header-list">
+                                <a href="#" class="header-link-item"
+                                    ><li class="header-item">APP FEATURES</li></a
+                                >
+                                <a href="#" class="header-link-item"
+                                    ><li class="header-item">CONTACT US</li></a
+                                >
+                                <a href="#" class="header-link-item"
+                                    ><li class="header-item btn">START FREE</li></a
+                                >
+                            </ul>
                         </div>
-                        <ul class="header-list">
-                            <a href="#" class="header-link-item"
-                                ><li class="header-item">APP FEATURES</li></a
-                            >
-                            <a href="#" class="header-link-item"
-                                ><li class="header-item">CONTACT US</li></a
-                            >
-                            <a href="#" class="header-link-item"
-                                ><li class="header-item btn">START FREE</li></a
-                            >
-                        </ul>
                     </div>
                 </div>
             </div>
-        </div>
+        </header>
 
-        <!-------------------------------------------- MAIN SECTION ------------------------------>
+        <main>
+
+            <!-------------------------------------------- MAIN SECTION ------------------------------>
 
         <div class="main-section">
             <img
@@ -77,15 +81,6 @@
                     <!-- Иконка 1 -->
                     Download on the App Store
                 </button>
-                <button class="main-button main-button-play">
-                    <img
-                        src="./img/icon btn google-play.svg"
-                        alt="Icon 2"
-                        class="icon icon-play"
-                    />
-                    <!-- Иконка 2 -->
-                    Get it on Google Play
-                </button>
             </div>
 
             <div class="main-wrap-img">
@@ -102,7 +97,7 @@
 
         <!-- 1 -->
         <div class="container-information">
-            <div class="information-section information-mob-top">
+            <div class="information-section">
                 <div class="information-wrap-image">
                     <img
                         src="./img/information-1.png"
@@ -222,19 +217,35 @@
             <div class="icons">
                 <div class="icon">
                     <span class="contacts-text-span active-tab">Home</span>
-                    <span class="arrow active-arrow">→</span>
+                    <span class="arrow active-arrow">
+                        <svg width="47" height="23" viewBox="0 0 47 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Arrow 1" d="M46.0607 12.5607C46.6464 11.9749 46.6464 11.0251 46.0607 10.4393L36.5147 0.893401C35.9289 0.307615 34.9792 0.307615 34.3934 0.893401C33.8076 1.47919 33.8076 2.42894 34.3934 3.01472L42.8787 11.5L34.3934 19.9853C33.8076 20.5711 33.8076 21.5208 34.3934 22.1066C34.9792 22.6924 35.9289 22.6924 36.5147 22.1066L46.0607 12.5607ZM-1.31134e-07 13L45 13L45 10L1.31134e-07 10L-1.31134e-07 13Z" fill="currentColor"/>
+                        </svg>
+                    </span>
                 </div>
                 <div class="icon">
                     <span class="contacts-text-span">Source</span>
-                    <span class="arrow">→</span>
+                    <span class="arrow">
+                        <svg width="47" height="23" viewBox="0 0 47 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Arrow 1" d="M46.0607 12.5607C46.6464 11.9749 46.6464 11.0251 46.0607 10.4393L36.5147 0.893401C35.9289 0.307615 34.9792 0.307615 34.3934 0.893401C33.8076 1.47919 33.8076 2.42894 34.3934 3.01472L42.8787 11.5L34.3934 19.9853C33.8076 20.5711 33.8076 21.5208 34.3934 22.1066C34.9792 22.6924 35.9289 22.6924 36.5147 22.1066L46.0607 12.5607ZM-1.31134e-07 13L45 13L45 10L1.31134e-07 10L-1.31134e-07 13Z" fill="currentColor"/>
+                        </svg>
+                    </span>
                 </div>
                 <div class="icon">
                     <span class="contacts-text-span">Camera</span>
-                    <span class="arrow">→</span>
+                    <span class="arrow">
+                        <svg width="47" height="23" viewBox="0 0 47 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Arrow 1" d="M46.0607 12.5607C46.6464 11.9749 46.6464 11.0251 46.0607 10.4393L36.5147 0.893401C35.9289 0.307615 34.9792 0.307615 34.3934 0.893401C33.8076 1.47919 33.8076 2.42894 34.3934 3.01472L42.8787 11.5L34.3934 19.9853C33.8076 20.5711 33.8076 21.5208 34.3934 22.1066C34.9792 22.6924 35.9289 22.6924 36.5147 22.1066L46.0607 12.5607ZM-1.31134e-07 13L45 13L45 10L1.31134e-07 10L-1.31134e-07 13Z" fill="currentColor"/>
+                        </svg>
+                    </span>
                 </div>
                 <div class="icon">
                     <span class="contacts-text-span">Crop</span>
-                    <span class="arrow">→</span>
+                    <span class="arrow">
+                        <svg width="47" height="23" viewBox="0 0 47 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="Arrow 1" d="M46.0607 12.5607C46.6464 11.9749 46.6464 11.0251 46.0607 10.4393L36.5147 0.893401C35.9289 0.307615 34.9792 0.307615 34.3934 0.893401C33.8076 1.47919 33.8076 2.42894 34.3934 3.01472L42.8787 11.5L34.3934 19.9853C33.8076 20.5711 33.8076 21.5208 34.3934 22.1066C34.9792 22.6924 35.9289 22.6924 36.5147 22.1066L46.0607 12.5607ZM-1.31134e-07 13L45 13L45 10L1.31134e-07 10L-1.31134e-07 13Z" fill="currentColor"/>
+                        </svg>
+                    </span>
                 </div>
                 <div class="icon">
                     <span class="contacts-text-span contacts-text-mob"
@@ -385,6 +396,9 @@
                 />
             </div>
         </div>
+
+        </main>
+        
         <!---------------------------------- FOOTER --------------------------------->
         <footer class="footer">
             <div class="footer-content">
@@ -400,14 +414,6 @@
                             alt="Icon"
                         />
                         Download on the App Store
-                    </button>
-                    <button class="app-button app-btn-play">
-                        <img
-                            class="play-icon"
-                            src="./img/icon btn google-play.svg"
-                            alt="Icon"
-                        />
-                        Get it on Google Play
                     </button>
                 </div>
             </div>
@@ -426,10 +432,9 @@
             <!-- <span class="link-line">|</span> -->
         </div>
 
-        <a
-            href="https://apps.apple.com/us/developer/rocketdevelopmentgroup/id1544949640"
-            ><p class="link-last">RocketDevelopmentGroup</p></a
-        >
+        <a href="https://apps.apple.com/us/developer/rocketdevelopmentgroup/id1544949640">
+            <p class="link-last">RocketDevelopmentGroup</p>
+        </a>
 
         <script src="./js/script.js"></script>
     </body>
