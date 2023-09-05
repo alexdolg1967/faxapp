@@ -202,7 +202,7 @@ main {
     background-size: contain;
     z-index: -2;
     top: 155px;
-    background-image: url(./img/hero-flags.jpg);
+    background-image: url(./img/hero-flags.png);
 }
 .main-wrap-img {
     position: relative;
